@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Song's Fake Blog
+		</title>
+		<meta name="description" content="Song's Fake Blog">
+		<style>
+		thead {color:#660000;}
+		tbody {color:#303030;}
+
+		table, th, td {
+		border: 1px solid black;
+		}
+</style>
+	</head>
+	<body>
+		<h1>
+		Welcome to Song's Fake Blog
+		</h1>
+		<div id="container">
+		
+		<p>
+		<span style="font-style:italic;"> Thanks for visiting!</span><br />
+		<a ahref="http://www.google.com"> Here's a link!</a>
+		</p>
+		<p>
+		My Favorite White Wines
+	<table>
+		<thead>
+			<tr>
+			<th>Chardonnay</th>
+			<th>Sauvignon Blanc</th>
+			<th>Cabernet Sauvignon</th>
+			<th>Pinot Noir</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>Alpha Omega</td>
+			<td>Honig</td>
+			<td>Stag's Leap</td>
+			<td>La Crema</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+<p>
+Survey Time!
+
+	<form action="processwine.php" method="post">
+    <p>Register Your Favorite Wine</p>
+    <label>
+        First Name:<input type="text" name="first_name">
+    </label>
+    <label>
+        Last Name:<input type="text" name="last_name">
+    </label>
+	<br />
+    <label>
+        Email:<input type="text" name="email">
+    </label>
+    <p>Select your gender:</p>
+    <label>
+        <input type="radio" name="gender" value="male"> Male
+    </label>
+    <label>
+        <input type="radio" name="gender" value="female"> Female
+    </label>
+	 <p>Do you prefer red wine or white wine?</p>
+    <select name="winetype">
+        <option value="red"> Red
+		</option>
+		<option value="white"> White
+		</option>
+    </select>
+    <p>Select up to 3 of your favorite wines:</p>
+    <label>
+        <input type="checkbox" name="wine" value="Chardonnay">Chardonnay
+    </label>
+    <label>
+        <input type="checkbox" name="wine" value="Sauvignon Blanc">Sauvignon Blanc
+    </label>
+    <label>
+        <input type="checkbox" name="wine" value="Merlot">Merlot
+    </label>
+    <label>
+        <input type="checkbox" name="wine" value="Pinot Noir">Pinot Noir
+    </label>
+    <label>
+        <input type="checkbox" name="wine" value="Cabernet Sauvignon">Cabernet Sauvignon
+    </label>
+    <p>Tell us about your favorite wine:</p>
+    <textarea name="description"></textarea>
+	<p>
+   <input type="submit" value="Submit your Survey">
+   </p>
+</form>
+</p>
+		</div> 
+	</body>
+</html>
