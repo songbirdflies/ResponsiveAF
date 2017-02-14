@@ -16,7 +16,7 @@ body {
 h1 { margin: 0 0 .5em 1em; font-size: 1.6em; font-weight: 700; color: #fff; }
 h2 { margin: 0 0 .5em 1em; font-size: 1.5em; font-weight: 400; color: #fff; }
 h3 { margin: 0 0 .5em 1em; font-size: 1.4em; font-weight: 700; }
-h4 { margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
+h4 { margin: 0 0 .5em 0; font-size: 1.2em; font-weight: 700; }
 
 .clear{
   clear:both;
@@ -93,6 +93,11 @@ aside img{
  display: block;
 }
 
+aside img.logo{
+ width: 36px;
+ display: inline-block;
+}
+
 
 footer {
  max-width: 1200px; 
@@ -110,26 +115,6 @@ footer p{
  color: black;
 }
 
-/*****  Media Queries for Desktops *****/ 
-
-@media screen and (max-width: 1246px){
-	#navigation{
-	 height: 30px;
-	 width: 15%;
-	 background-color: blue;
-	 margin-left: 15px;
-	 float: left;
-	 display: block;
-	}
-	.subcontents{
-		 height: 200px;
-		 width: 40%;
-		 background-color: yellow;
-		 margin: 10px 10px 30px;
-		 float: left;
-		 display: block;
-	}
-}
 
 /*****  Media Queries for Desktop *****/ 
 
