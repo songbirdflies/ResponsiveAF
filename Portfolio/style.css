@@ -1,0 +1,206 @@
+/* CSS Document  */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');/*@import has to be the first thing on a css file. This imports fonts */
+
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body { 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 1em; font-weight: 300; 
+	color: #555; margin: 0; padding:0;
+}
+
+h1 { margin: 0 0 .5em 1em; font-size: 1.6em; font-weight: 700; color: #fff; }
+h2 { margin: 0 0 .5em 1em; font-size: 1.5em; font-weight: 400; color: #fff; }
+h3 { margin: 0 0 .5em 1em; font-size: 1.4em; font-weight: 700; }
+h4 { margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
+
+.clear{
+  clear:both;
+}
+
+#wrapper { 
+	max-width: 1200px; 
+	width: 80%;
+	margin: 0 auto; /* auto will center content */ 
+	position: relative; 
+	background-color: #f9dcb7;
+	padding-bottom: 30px;
+} 
+	
+header{
+ height: 100px;
+ background-color: #448ccb;
+ display: block;
+ padding-top: 10px;
+}
+
+
+figure {
+	display: inline-block; 
+	width: 38%; 
+	margin: 20px;
+}
+
+figure img {
+	width: 100%;
+	border: 5px solid #fff;
+}
+
+section {
+	width: 100%;
+	display: inline-block;
+}
+
+.header{
+ width: 100%;
+ background-color: #b1d0f1;
+ display: block;
+}
+
+
+main {
+ width: 52%;
+ background-color: #fff;
+ display: inline-block;
+ float: right;
+ margin: 20px;
+}
+
+main p{
+ padding: 20px;
+ display: block;
+}
+
+aside {
+ width: 30%;
+ background-color: #fff;
+ margin-left: 20px;
+ display: inline-block;
+ float: left;
+}
+
+aside p{
+ padding: 20px;
+ display: block;
+}
+
+aside img{
+ width: 100%;
+ display: block;
+}
+
+
+footer {
+ max-width: 1200px; 
+ width: 80%;
+ margin: 0 auto;
+ height: 40px;
+ display: block;
+ position: relative;
+ padding: 20px 0px;
+ text-align: center;
+ background-color: rgba(192,192,192,0.3);
+}
+
+footer p{
+ color: black;
+}
+
+/*****  Media Queries for Desktops *****/ 
+
+@media screen and (max-width: 1246px){
+	#navigation{
+	 height: 30px;
+	 width: 15%;
+	 background-color: blue;
+	 margin-left: 15px;
+	 float: left;
+	 display: block;
+	}
+	.subcontents{
+		 height: 200px;
+		 width: 40%;
+		 background-color: yellow;
+		 margin: 10px 10px 30px;
+		 float: left;
+		 display: block;
+	}
+}
+
+/*****  Media Queries for Desktop *****/ 
+
+@media screen and (max-width: 1024px){
+figure {
+	display: inline-block; 
+	width: 35%; 
+	margin: 20px;
+}
+
+figure img {
+	width: 100%;
+	border: 5px solid #fff;
+}
+
+main {
+ width: 50%;
+ background-color: #fff;
+ display: inline-block;
+ margin: 20px;
+}
+
+}
+/*****  Media Queries for Tablets & Handheld Devices *****/ 
+
+@media screen and (max-width: 780px){
+h1 { margin: 0 0 .5em 1em; font-size: 1.4em; font-weight: 700; color: #fff; }
+h2 { margin: 0 0 .5em 1em; font-size: 1.3em; font-weight: 400; color: #fff; }
+h3 { margin: 0 0 .5em 1em; font-size: 1.2em; font-weight: 700; }
+
+figure {
+	display: block; 
+	width: 50%; 
+	margin: 0 auto;
+}
+
+figure img {
+	width: 100%;
+	border: 5px solid #fff;
+}
+
+main {
+ width: 90%;
+ background-color: #fff;
+ display: block;
+ margin: 20px;
+}
+aside {
+ width: 45%;
+ background-color: #fff;
+ margin-left: 20px;
+ display: inline-block;
+ float: left;
+}
+
+}
+
+/*****  Media Queries for Tablets & Handheld Devices *****/ 
+
+@media screen and (max-width: 587px){ 
+h2 { margin: 0 0 .5em 1em; font-size: 1.2em; font-weight: 400; color: #fff; }
+header{
+ height: 120px;
+ background-color: #448ccb;
+ display: block;
+ padding-top: 10px;
+}
+aside {
+ width: 80%;
+ background-color: #fff;
+ margin: 20px;
+ display: block;
+}
+}

@@ -1,0 +1,52 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#wrapper{
+ width: 75%;
+ background-color: silver;
+ margin: 0px auto;
+ overflow: hidden;
+ height: auto;
+ display: block;
+}
+
+#header{
+ margin: 15px;
+ display: block;
+ text-align: center;
+}
+
+.clear{
+  clear:both;
+}
+
+img {
+	width: 200px;
+}
+
+.white {
+	background-color: #fff;
+}
+
+#main_content{
+ width: 75%;
+ background-color: pink;
+ margin: 0 auto;
+ padding: 15px;
+ text-align: center;
+
+}
+
+.subcontents{
+ height: 200px;
+ width: 210px;
+ background-color: yellow;
+ margin: 10px 10px 30px;
+ float: left;
+ display: block;
+}
+
+
